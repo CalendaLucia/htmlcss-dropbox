@@ -25,6 +25,13 @@ h3 {
 }
 
 
+* ul li  {
+    list-style: none;
+    
+}
+
+
+
 /* STYLE FIRST SECTION */
 
 nav {
@@ -49,7 +56,7 @@ nav {
     display: inline-block;
     margin-left: 15px;
     font-size: 12px;
-    text-decoration: none;
+    list-style: none;
 }
 
 .nav-bar.left {
@@ -65,7 +72,7 @@ nav {
 
 /* STYLE SECOND SECTION */
 
-.container-infoDropBox {
+#container-infoDropBox {
     width: 100%;
     height: 400px;
     background-color: aqua;
@@ -111,7 +118,7 @@ nav {
 
 /* STYLE SECTION BUSINESS PLAN */
 
-.business-plan, .footer-box, .partner-dropbox, .info-operation {
+.business-plan, .footer-box, #partner-dropbox, #info-operation {
   margin: 0 auto;
   width: 50%;
   margin-top: 20px;
@@ -156,7 +163,7 @@ nav {
 
 /* STYLE PARTNERS SECTION */
 
-.partner-dropbox .partner-img {
+#partner-dropbox .partner-img {
   width: 60%;
   height: 150px;
   background-color: aquamarine;
@@ -169,7 +176,7 @@ nav {
    
 }
 
-.partner-dropbox {
+#partner-dropbox {
     display: flex;
     
 }
@@ -190,3 +197,66 @@ nav {
     height: 100px;
     margin: 5px;
 }
+
+.container-logos {
+     max-width: 100%;
+     height: 200px;
+     background-color: aqua;
+     margin-top: 30px;
+     display: flex;
+}
+
+.container-boxLogos {
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logos {
+    width: calc(100% / 2);
+    background-color: aquamarine;
+}
+
+.container-underLogos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.container-faq {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+   
+
+}
+
+#navbar-footer {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: black;   
+    
+}
+
+
+
+
+
