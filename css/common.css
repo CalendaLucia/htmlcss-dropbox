@@ -5,3 +5,39 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+.conteiner-nav-bar {
+    background-color: red;
+    max-width:100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-bar, .logo {
+    max-width: 100%;
+}
+
+.logo {
+    width: 100px;
+    background-color: lightcoral;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.nav-bar.left {
+    background-color: lightcoral;
+    width: 200px0px;
+    margin-right: 500px;
+}
+
+.nav-bar.right {
+    background-color: lightcoral;
+    width: 200px0px;
+}
