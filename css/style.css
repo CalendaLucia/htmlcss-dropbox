@@ -6,8 +6,10 @@
     box-sizing: border-box;
 }
 
+/* STYLE FIRST SECTION */
+
 nav {
-    background-color: red;
+    background-color: aliceblue;
     max-width:100vw;
     display: flex;
     justify-content: space-around;
@@ -42,3 +44,49 @@ nav {
     width: 200px0px;
 }
 
+/* STYLE SECOND SECTION */
+
+.container-infoDropBox {
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    padding: 50px;
+
+}
+
+.title {
+    width: 50% ;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 0 auto;
+   
+}
+
+.box-img, .paragraph {
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.container-bottom {
+    max-width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.paragraph {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 250px;
+    height: 200px;
+
+}
+
+.box-img {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 400px;
+    height: 200px;
+}
