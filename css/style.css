@@ -6,6 +6,25 @@
     box-sizing: border-box;
 }
 
+/* COMMON STYLE */
+
+P {
+    font-size: 10px;
+}
+
+* div {
+border: 1px dashed black;
+}
+
+.margin0auto {
+    margin: 0 auto;
+}
+
+h3 {
+    padding: 10px;
+}
+
+
 /* STYLE FIRST SECTION */
 
 nav {
@@ -64,7 +83,6 @@ nav {
 
 .box-img, .paragraph {
     background-color: aquamarine;
-    border: 1px solid black;
     display: inline-block;
 }
 
@@ -89,4 +107,86 @@ nav {
     right: 0px;
     width: 400px;
     height: 200px;
+}
+
+/* STYLE SECTION BUSINESS PLAN */
+
+.business-plan, .footer-box, .partner-dropbox, .info-operation {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.business-plan span {
+  width: 100px;
+  height: 100px;
+  font-size: 12px;
+  margin-right: 50px;
+}
+
+.business-plan h3 {
+   margin-bottom: 20px;
+}
+
+.column-box {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+
+.column {
+   width: 200px;
+   height: 400px;
+   background-color: aquamarine;
+}
+
+.head {
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    background-color: antiquewhite;
+}
+
+.footer-box button {
+  margin-left: 250px;
+}
+
+/* STYLE PARTNERS SECTION */
+
+.partner-dropbox .partner-img {
+  width: 60%;
+  height: 150px;
+  background-color: aquamarine;
+}
+
+.info-box {
+    width: 40%;
+    height: 150px;
+    background-color: antiquewhite;
+   
+}
+
+.partner-dropbox {
+    display: flex;
+    
+}
+
+/* STYLE INFO-OPERATION SECTION */
+
+.container-small-box {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    
+    
+}
+
+.small-box {
+    width: calc(95% / 3);
+    background-color: aquamarine;
+    height: 100px;
+    margin: 5px;
 }
