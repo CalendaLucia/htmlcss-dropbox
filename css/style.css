@@ -97,7 +97,7 @@
 
 .column {
    width: 200px;
-   margin: 10px;
+   margin: 0 auto;
    border: 1px solid black;
 
 }
@@ -141,10 +141,29 @@
     margin-bottom: 15px;
 }
 
-
+#container-footer-box {
+    max-width: 80%;
+    margin: 0 auto;
+}
 
 .footer-box button {
-  margin-left: 250px;
+  margin-left: 400px;
+}
+
+.footer-box {
+    border: 1px solid black;
+    
+}
+
+.footer-box h5 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer-box p {
+    line-height: 15px;
+    margin-bottom: 10px;
 }
 
 /* STYLE PARTNERS SECTION */
