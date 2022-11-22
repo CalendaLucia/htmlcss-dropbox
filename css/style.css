@@ -1,161 +1,147 @@
-/* RESET */
+/* STYLE SECTION conteiner-nav-bar */
 
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-/* COMMON STYLE */
-
-P {
-    font-size: 10px;
-}
-
-* div {
-border: 1px dashed black;
-}
-
-.margin0auto {
-    margin: 0 auto;
-}
-
-h3 {
-    padding: 10px;
-}
-
-
-* ul li  {
-    list-style: none;
-    
-}
-
-
-
-/* STYLE FIRST SECTION */
-
-nav {
-    background-color: aliceblue;
-    max-width:100vw;
+ header nav {
+    background-color: white;
+    max-width:100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    padding: 5px;
 }
 
-.nav-bar, .logo {
-    max-width: 100%;
-}
-
-.logo {
-    width: 100px;
-    background-color: lightcoral;
+.logo img {
+   width: 80px;
+   padding: 5px 5px;
 }
 
 .nav-bar li {
     display: inline-block;
     margin-left: 15px;
-    font-size: 12px;
-    list-style: none;
-}
-
+ }
+ 
 .nav-bar.left {
-    background-color: lightcoral;
-    width: 200px0px;
     margin-right: 500px;
 }
 
-.nav-bar.right {
-    background-color: lightcoral;
-    width: 200px0px;
-}
-
-/* STYLE SECOND SECTION */
+/* STYLE SECTION container-infoDropBox*/
 
 #container-infoDropBox {
-    width: 100%;
-    height: 400px;
-    background-color: aqua;
+    max-width: 100%;
+    max-height: 500px;
+    background-color: #b4d0e7;
     padding: 50px;
-
 }
 
-.title {
-    width: 50% ;
-    height: 100px;
-    background-color: aquamarine;
-    margin: 0 auto;
-   
+.title h1 {
+    font-size: 50px;
 }
 
-.box-img, .paragraph {
-    background-color: aquamarine;
-    display: inline-block;
+.container-jumboBox {
+    max-width: 100%;
+    max-width: auto;
+    display: flex;
+    justify-content:center;
 }
 
-.container-bottom {
-    max-width: 50%;
-    position: relative;
-    margin: 0 auto;
+.start-freeTrial {
+   margin: 15px 0px;
+}
+
+.box-img img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 300px;
 }
 
 .paragraph {
-    position: absolute;
-    top: 20px;
-    left: 0px;
-    width: 250px;
-    height: 200px;
-
+    max-width: 300px;
+    max-height: 100px;
 }
 
-.box-img {
-    position: absolute;
-    top: 20px;
-    right: 0px;
-    width: 400px;
-    height: 200px;
+.fa-arrow-down {
+    font-size: 30px;
+}
+
+.icon-arrow {
+    padding: 10px;
 }
 
 /* STYLE SECTION BUSINESS PLAN */
 
-.business-plan, .footer-box, #partner-dropbox, #info-operation {
-  margin: 0 auto;
-  width: 50%;
-  margin-top: 20px;
+.container-span span {
+    font-size: 12px;
 }
 
-.business-plan span {
-  width: 100px;
-  height: 100px;
-  font-size: 12px;
-  margin-right: 50px;
+.container-span {
+    margin: 0px 0px 30px 70px;
+}
+
+.fa-circle-dot, .fa-circle {
+    color: #0061ff;
+    
 }
 
 .business-plan h3 {
-   margin-bottom: 20px;
+   padding: 50px 70px;
+   font-size: 25px;
 }
+
+/* STYLE COLUMN  */
 
 .column-box {
     width: 50%;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     margin-top: 10px;
-    
 }
 
 .column {
    width: 200px;
-   height: 400px;
-   background-color: aquamarine;
+   margin: 10px;
+   border: 1px solid black;
+
+}
+
+.container-infoColumn {
+    width: 90%;
+    margin: 10px 0px 30px 5px;
+}
+
+.column h4, h6, p {
+    margin-left: 10px;
+   
+}
+
+.column  span, h6 {
+    font-size: 10px;
+}
+
+.smallBox-intoColumn, .button-intoColumn, .smallBox-linkColumn {
+    margin: 10px 0px 0px 5px;
+    line-height: 10px;
+}
+
+.column i {
+    font-size: 10px;
 }
 
 .head {
-    padding: 10px;
+    padding: 3px 5px;
     text-align: center;
     margin-top: 0px;
-    background-color: antiquewhite;
+    border: 1px solid black;
 }
+
+.button-intoColumn, .smallBox-linkColumn, .smallBox-footerColumn   {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.smallBox-footerColumn h6 {
+    margin-bottom: 15px;
+}
+
+
 
 .footer-box button {
   margin-left: 250px;

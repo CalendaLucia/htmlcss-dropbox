@@ -1,0 +1,65 @@
+/* RESET */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* COMMON STYLE */
+
+.business-plan, 
+.container-jumboBox,
+.footer-box,
+#partner-dropbox,
+#info-operation,
+.title  {
+    margin: 0 auto;
+    max-width: 60%;
+    max-height: auto;
+    margin-top: 50px;
+  }
+  
+
+P {
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 10px;
+}
+
+.margin0auto {
+    margin: 0 auto;
+}
+
+h3 {
+    padding: 10px;
+}
+
+* ul li  {
+    list-style: none;
+    font-size: 12px;
+    
+}
+
+* a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+}
+
+.nav-bar a:hover  {
+    border-bottom: 2px solid blue;
+  
+}
+
+* button {
+    background-color: #0061ff;
+    font-size: 12px;
+    color: white;
+    border: none;
+    padding: 8px 8px;
+}
+
+* button:hover {
+    cursor: pointer;
+}
