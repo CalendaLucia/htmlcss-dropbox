@@ -77,18 +77,39 @@ h4 {
 
 /* ALL HOVER STYLE */
 
-.nav-bar a:hover  {
-    border-bottom: 2px solid blue;
-    transition: background 1s ease-out;
-    background-color: lightgray;
-}
-
 * button:hover {
     cursor: pointer;
 }
 
-.nav-bar li:active {
-   
-    box-shadow: ;
-    li
+.nav-bar, .container-faq {
+    position: relative;
+}
+
+#menu-bar, .response-faq  {
+    display: none;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+#menu-bar li {
+    list-style: none;
+    display: block;
+    padding: 10px 5px;
+}
+
+a:hover + #menu-bar {
+    display: block;
+     position: absolute;
+     z-index:1; 
+  }
+
+.nav-bar a:hover {
+    border-bottom: #0061ff;
+}
+
+.arrow-icon:hover  .response-faq  {
+    display: block;
+    position: absolute;
+    z-index:1;
+    
 }
