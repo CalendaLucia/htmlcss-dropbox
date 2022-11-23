@@ -22,23 +22,18 @@
   
 
 P {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 15px;
     margin-left: 10px;
 }
 
-.margin0auto {
-    margin: 0 auto;
-}
-
 h3 {
-    padding: 10px;
+    font-size: 25px;
 }
 
 * ul li  {
     list-style: none;
     font-size: 12px;
-    
 }
 
 * a {
@@ -62,4 +57,20 @@ h3 {
 
 * button:hover {
     cursor: pointer;
+}
+
+.info-box, .small-box   h4 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.left-group img {
+   filter: invert();
+   width: 100px ;
+
+}
+
+.right-group img {
+    width: 100px ;
+    filter: invert();
 }
