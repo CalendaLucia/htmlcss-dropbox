@@ -46,21 +46,12 @@ h4 {
     color: black;
 }
 
-.nav-bar a:hover  {
-    border-bottom: 2px solid blue;
-  
-}
-
 * button {
     background-color: #0061ff;
     font-size: 12px;
     color: white;
     border: none;
     padding: 8px 8px;
-}
-
-* button:hover {
-    cursor: pointer;
 }
 
 .info-box, .small-box   h4 {
@@ -71,7 +62,6 @@ h4 {
 .left-group img {
    filter: invert();
    width: 100px ;
-
 }
 
 .right-group img {
@@ -83,4 +73,22 @@ h4 {
     width: 50px;
     margin-left: 30px;
     margin-top: 20px;
+}
+
+/* ALL HOVER STYLE */
+
+.nav-bar a:hover  {
+    border-bottom: 2px solid blue;
+    transition: background 1s ease-out;
+    background-color: lightgray;
+}
+
+* button:hover {
+    cursor: pointer;
+}
+
+.nav-bar li:active {
+   
+    box-shadow: ;
+    li
 }
