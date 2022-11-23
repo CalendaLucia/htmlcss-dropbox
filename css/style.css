@@ -73,17 +73,16 @@
 }
 
 .container-span {
-    margin: 0px 0px 30px 70px;
+    margin: 0px 0px 30px 5px;
 }
 
 .fa-circle-dot, .fa-circle {
     color: #0061ff;
-    
 }
 
 .business-plan h3 {
-   padding: 50px 70px;
    font-size: 25px;
+   padding: 10px 0px;
 }
 
 /* STYLE COLUMN  */
@@ -107,7 +106,6 @@
 
 .container-infoColumn h4, h6 {
     margin-left: 10px;
-
 }
 
 .column  span, h6, i {
@@ -119,9 +117,22 @@
     font-size: 15px;
 }
 
-.smallBox-intoColumn, .button-intoColumn, .smallBox-linkColumn, .smallBox-footerColumn  {
+.smallBox-intoColumn, .smallBox-footerColumn  {
     margin: 10px 0px 10px 15px;
     line-height: 15px;
+}
+
+.button-intoColumn, .smallBox-linkColumn {
+    margin-left: 40px;
+    padding: 10px 0px;
+}
+
+.smallBox-linkColumn p, a {
+    font-size: 15px;
+}
+
+.smallBox-linkColumn a {
+    color: #0061ff;
 }
 
 .head {
@@ -133,6 +144,13 @@
 
 .smallBox-footerColumn h6 {
     font-size: 12px;
+    padding: 20px;
+}
+
+.smallBox-footerColumn span {
+    line-height: 30px;
+    text-indent: -12px;
+    
 }
 
 .fa-check {
@@ -145,8 +163,7 @@
 }
 
 .footer-box button {
-  margin-left: 550px;
-  margin-top: 20px;
+  margin-left: 600px;
 }
 
 .footer-box {
@@ -172,6 +189,11 @@
 #partner-dropbox .partner-img img {
   width: 400px;
   height: 340px;
+}
+
+#partner-dropbox h4 {
+     margin-left: 10px;
+     margin-bottom: 20px;
 }
 
 .white-button {
@@ -208,8 +230,11 @@
 
 .container-linkPartners {
   width: 50%;
-  margin-bottom: 80px;
   margin-left: 10px;
+}
+
+#link-partners {
+    margin-top: 50px;
 }
 
 #link-partners a {
@@ -374,18 +399,18 @@
 }
 
 footer {
-    background-color: black;   
-    
+    background-color: black;
+    border-bottom: 1px solid white; 
 }
 
 .white {
-    color: white;
-   padding: 130px;
+   color: white;
+   padding: 100px;
    width:50px ;
    border-right: black;
    border-left: black;
    margin-left: 150px;
-  
+   border-bottom: black;
 }
 
 
