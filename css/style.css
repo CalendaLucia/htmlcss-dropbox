@@ -1,14 +1,13 @@
 /* STYLE SECTION conteiner-nav-bar */
 
- header nav {
+  nav {
     background-color: white;
     max-width:100vw;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     padding: 5px;
-    
- }
+}
 
  #conteiner-nav-bar {
     position: fixed;
@@ -23,18 +22,21 @@
    padding: 5px 5px;
 }
 
-.nav-bar li {
+ .navBar .menu-bar {
     display: inline-block;
-    margin-left: 15px;
- }
- 
+} 
+
 .nav-bar.left {
-    width: 60% ;
+    width: 1000px;
 }
 
-.nav-bar.right {
-    width: 50%;
-    margin-left: 200px;
+.right {
+    width: 1000px;
+    margin-left: 300px;
+}
+
+nav div {
+    display: inline-block;
 }
 
 /* STYLE SECTION container-infoDropBox*/
@@ -169,7 +171,6 @@
 .smallBox-footerColumn span {
     line-height: 30px;
     text-indent: -12px;
-    
 }
 
 .fa-check {
@@ -263,7 +264,7 @@
 }
 
 #link-partners {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 #link-partners a {
@@ -302,6 +303,7 @@
 
 .container-boxLogos .green {
     background-color: #a2d39b;
+    border: 10px solid #deefdb;
 }
 
 .container-boxLogos .brown {
@@ -310,10 +312,6 @@
 
 .container-boxLogos .evenly {
     background-color:#0093ce;
-}
-
-.container-boxLogos .red {
-    background-color:red;
 }
 
 .container-boxLogos .red {
@@ -383,6 +381,7 @@
 }
 
 #FAQ li {
+    font-size: 15px;
     text-align: start;
     line-height: 80px;
     display: inline-block;
@@ -396,12 +395,10 @@
     cursor: pointer;
 }
 
-
 /* STYLE SECTION FOOTER */
 
 #navbar-footer {
     width: 80%;
-    min-height: 400px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -415,32 +412,56 @@
 }
 
 #navbar-footer li {
-    line-height: 20px;
-    font-size: 12px;
+    line-height: 35px;
+    font-size: 15px;
 }
 
 #navbar-footer ul {
     width: 200px;
 }
 
+#navbar-footer h5 {
+    font-size: 25px;
+}
+
 .box-navbarFooter {
-    margin-bottom: 130px;
+    margin-top: 80px;
 }
 
 footer {
+    max-width: 100%;
     background-color: black;
     border-bottom: 1px solid white; 
 }
 
 .white {
    color: white;
-   padding: 100px;
+   padding: 30px;
    width:50px ;
+   margin-top: 30px;
    border-right: black;
    border-left: black;
-   margin-left: 150px;
+   margin-left: 220px;
    border-bottom: black;
 }
+
+.underline {
+    margin-left: 210px;
+}
+
+.language {
+   color: white;
+   font-size: 15px;
+}
+
+.underline i {
+    color: white;
+    font-size:12px;
+    margin-bottom: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
 
 
 
